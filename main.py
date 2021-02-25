@@ -397,11 +397,11 @@ HeadingLabel.pack()
 id=tkinter.Label(root,text="180444003",fg="blue",font="Arial 16 bold",background="#ffffff")
 id.place(x=235,y=50)
 
-img="images/me.jpeg"
+img="Images/me.jpeg"
 my_img=ImageTk.PhotoImage(Image.open(img))
 ImageLabel=tkinter.Label(root,image=my_img).place(x=210,y=100)
 
-img2=PhotoImage(file="images/start.png")
+img2=PhotoImage(file="Images/start.png")
 
 btnStart=Button(root,image=img2,relief=FLAT,border=0,background="#ffffff",command=startIsPressed)
 btnStart.pack(pady=(300,0))
